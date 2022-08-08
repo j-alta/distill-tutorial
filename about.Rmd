@@ -8,3 +8,18 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## About Me
+Hi! My name is **Jose Altamirano** and I am a second year Master of Public Policy student at the Harvard Kennedy School. I am interested in voting rights, election administration, and electoral politics.
+
+## About the Project
+Studying policy views between different racial groups in the 2020 CCES: This project, *Racial Differences in the 2020 CCES* will look at differences between racial and ethnic groups among the responses to a set of different policy and ideological questions in the 2020 Cooperative Election Study (CCES) and previous years.
+
+### Goals
+* Identify and visualize differences between racial and ethnic groups in the 2020 CCES for a variety of questions.
+  + Challenge: how do I clean up the data to be able to differentiate Hispanic/Latino respondents?
+* Identify trends in the responses to a selected group of questions between 2015 and 2020 CCES.
+
+"This is data science"  
+~Preceptor
+
+[Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/)
