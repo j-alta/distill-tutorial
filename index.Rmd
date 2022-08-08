@@ -9,20 +9,21 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(ggthemes)
+library(knitr)
 
 ```
 
 ```{r car-plot}
-mtcars %>% select(mpg, wt) %>% 
-ggplot(aes(x = wt, y = mpg))+
-geom_point()+
-geom_smooth(method = "lm", formula = y ~ x, se = FALSE)+
-theme_clean()+
-labs(title = "Fuel Efficiency and Weight",
-    subtitle = "Heavier cars are less fuel efficient",
-    x = "Weight (1000s of pounds)",
-    y = "MPG",
-    caption = "Henderson and Vellerman (1981")
+#Miles per gallon and car weight selected to study relationship between heavier cars and their fuel efficiency
+#geom_smooth function added to show line of best fit in the graph.
+car_plot <- read_rds("car_plot.rds")
+car_plot
 
+ggsave("car-plot.png", plot = car_plot)
+
+```
+
+```{r}
+include_graphics("images/car-plot.png")
 ```
 
