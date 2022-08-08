@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\nAbout Me\r\nHi! My name is Jose Altamirano and I am a second\r\nyear Master of Public Policy student at the Harvard Kennedy School. I am\r\ninterested in voting rights, election administration, and electoral\r\npolitics.\r\nAbout the Project\r\nStudying policy views between different racial groups in the 2020\r\nCCES: This project, Racial Differences in the 2020 CCES will\r\nlook at differences between racial and ethnic groups among the responses\r\nto a set of different policy and ideological questions in the 2020\r\nCooperative Election Study (CCES) and previous years.\r\nGoals\r\nIdentify and visualize differences between racial and ethnic groups\r\nin the 2020 CCES for a variety of questions.\r\nChallenge: how do I clean up the data to be able to differentiate\r\nHispanic/Latino respondents?\r\n\r\nIdentify trends in the responses to a selected group of questions\r\nbetween 2015 and 2020 CCES.\r\n“This is data science”\r\n~Preceptor\r\nKane’s Free Data Science\r\nBootcamp\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-07T21:45:20-04:00"
+      "last_modified": "2022-08-07T22:00:45-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,35 @@
       "description": "This is where I will describe my final project.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-08-07T21:45:23-04:00"
+      "last_modified": "2022-08-07T22:00:49-04:00"
+    },
+    {
+      "path": "source_A.html",
+      "title": "Source A",
+      "description": "Detailed notes for Source A\n",
+      "author": [
+        {
+          "name": "Jose Altamirano",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing,\r\nnative to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-07T22:00:50-04:00"
+    },
+    {
+      "path": "source_B.html",
+      "title": "Source B",
+      "description": "Detailed notes for Source B\n",
+      "author": [
+        {
+          "name": "Jose Altamirano",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing,\r\nnative to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-07T22:00:51-04:00"
     }
   ],
   "collections": []
